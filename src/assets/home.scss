@@ -59,8 +59,7 @@ body {
     width: 100%;
 }
 &--opium {
-
-    max-width: 85%;
+    box-shadow: 5px 6px 4px 4px rgba(0,0,0,0.7);    max-width: 85%;
     border-radius: 50%;
     opacity:0.85;
 
@@ -94,14 +93,74 @@ body {
     & img{
         width: 80%;
         padding:40px;
-    }
+        box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.7);    }
 }
 &__text h1,p {
     padding-top:100px;
     color: white;
     text-shadow: 1px 3px 0 #969696, 9px 0px 8px #aba8a8, 2px 2px 2px rgba(161, 104, 171, 0.68);
+    font-family: $font-family-montserrat;
 
 }
+}
+.chatons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    margin-top: 30px;
+    &__picture{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 350px;
+    }
+    &__picture img {
+        border-radius: 50%;
+        width: 65%;
+        box-shadow: 5px 6px 4px 4px rgba(0,0,0,0.7);  
+        object-fit: cover;
+    }
+    &__text {
+        width: 50%;
+        color: #9d6ba5 ;
+        text-shadow: 0px 0px 0 #969696, 9px 0px 8px #aba8a8, 2px 2px 2px rgb(255 255 255);
+        font-family: $font-family-montserrat;
+        font-weight: 400;
+        line-height: 25px;
+        padding-left: 80px;
+
+    }
+    &__text p {
+        width: 85%;
+    }
+    &__text h2 {
+        padding-bottom: 40Px;
+    }
+
+}
+.flex__reverse {
+    flex-direction: row-reverse;
+}
+.title__chatons{
+    color: #9d6ba5 ;
+    padding: 30px;
+    font-family: $font-family-montserrat;
+    text-shadow: 0px 0px 0 #969696, 9px 0px 8px #aba8a8, 2px 2px 2px rgb(255 255 255);
+    border-bottom:5px #9d6ba5 solid;
+}
+.groupir {
+    width: 100%;
+    margin-top: 50px;
+    background-color: #C6A3CC;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+    & img {
+        width: 70%;
+
+    }
 }
 
 @media (max-width: 1440px) {
@@ -158,13 +217,12 @@ body {
         display: flex;
         justify-content: center;
         background-color:#FCEDFF ;
+        padding-top: 60px;
         &--fond {
             height: 700px;
         }
         &--opium {
-            padding: 30px;
             WIDTH: 65%;
-          padding: 60px 0px 0px 0px;
         }
     }
     &__text {
@@ -185,6 +243,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30px;
 &__image {
     width: 100%;
     display: flex;
@@ -200,14 +259,34 @@ body {
     width: 100%;
     & h1 {
         text-align: center;
-        padding-top: 0px;
+        padding-top: 30px;
     }
     & p {
         padding-left: 30px;
         padding-bottom: 60px;
+        padding-top: 30px;
     }
 }
 
+}
+.chatons{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: auto;
+
+&__text{
+    width: 80%;
+    text-align: center;
+    padding-left: 0;
+    & p{
+        width: 100%;
+    }
+}
+&__picture {
+    width: 70%;
+    padding-top: 40px;
+}
 }
 }
 
