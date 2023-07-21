@@ -4,10 +4,10 @@ import News from "../composents/News";
 import Chatons from "../composents/Noschaton";
 import Presentation from "../composents/Presentation";
 import gestation from "../picture/gestation.png"
-import tao from '../picture/Capture d’écran 2023-07-21 à 16.06.00.png'
-import tango from '../picture/Capture d’écran 2023-07-21 à 16.06.27.png'
-import thales from '../picture/Capture d’écran 2023-07-21 à 16.07.16.png'
-import volcansushi from '../picture/Capture d’écran 2023-07-21 à 16.08.21.png'
+import tao from '../picture/tao.png'
+import tango from '../picture/tango.png'
+import thales from '../picture/thales.png'
+import volcansushi from '../picture/volcan.png'
 import logochatterie from '../picture/image-09-02-23-06-32.png'
 function Home() {
     return (
