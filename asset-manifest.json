@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/royaumeecho/static/css/main.9356331b.css",
-    "main.js": "/royaumeecho/static/js/main.ac886103.js",
+    "main.css": "/royaumeecho/static/css/main.bf1bbfe8.css",
+    "main.js": "/royaumeecho/static/js/main.29e7dd32.js",
     "static/js/787.71e672d5.chunk.js": "/royaumeecho/static/js/787.71e672d5.chunk.js",
+    "static/media/image-09-02-23-06-32.png": "/royaumeecho/static/media/image-09-02-23-06-32.e4599c1a51389a7cdc59.png",
     "static/media/logo.png": "/royaumeecho/static/media/logo.2297c1be99f0bf196bb7.png",
     "static/media/opium.png": "/royaumeecho/static/media/opium.9823e5e17cfddda555c1.png",
     "static/media/gestation.png": "/royaumeecho/static/media/gestation.ad4418c58ea19af5eada.png",
+    "static/media/Capture d’écran 2023-07-21 à 16.06.27.png": "/royaumeecho/static/media/Capture d’écran 2023-07-21 à 16.06.27.947602f8aeef17261662.png",
+    "static/media/Capture d’écran 2023-07-21 à 16.08.21.png": "/royaumeecho/static/media/Capture d’écran 2023-07-21 à 16.08.21.e770cc82cd144dea48c6.png",
+    "static/media/Capture d’écran 2023-07-21 à 16.06.00.png": "/royaumeecho/static/media/Capture d’écran 2023-07-21 à 16.06.00.88fc3b4bed4c29dc40c9.png",
+    "static/media/Capture d’écran 2023-07-21 à 16.07.16.png": "/royaumeecho/static/media/Capture d’écran 2023-07-21 à 16.07.16.6acbe8a31d51525486c6.png",
     "index.html": "/royaumeecho/index.html",
-    "main.9356331b.css.map": "/royaumeecho/static/css/main.9356331b.css.map",
-    "main.ac886103.js.map": "/royaumeecho/static/js/main.ac886103.js.map",
+    "main.bf1bbfe8.css.map": "/royaumeecho/static/css/main.bf1bbfe8.css.map",
+    "main.29e7dd32.js.map": "/royaumeecho/static/js/main.29e7dd32.js.map",
     "787.71e672d5.chunk.js.map": "/royaumeecho/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9356331b.css",
-    "static/js/main.ac886103.js"
+    "static/css/main.bf1bbfe8.css",
+    "static/js/main.29e7dd32.js"
   ]
 }
