@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/royaumeecho/static/css/main.073c9b0a.css",
-    "main.js": "/royaumeecho/static/js/main.fa928d85.js",
+    "main.css": "/royaumeecho/static/css/main.9356331b.css",
+    "main.js": "/royaumeecho/static/js/main.ac886103.js",
     "static/js/787.71e672d5.chunk.js": "/royaumeecho/static/js/787.71e672d5.chunk.js",
-    "static/media/logo.svg": "/royaumeecho/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.png": "/royaumeecho/static/media/logo.2297c1be99f0bf196bb7.png",
+    "static/media/opium.png": "/royaumeecho/static/media/opium.9823e5e17cfddda555c1.png",
+    "static/media/gestation.png": "/royaumeecho/static/media/gestation.ad4418c58ea19af5eada.png",
     "index.html": "/royaumeecho/index.html",
-    "main.073c9b0a.css.map": "/royaumeecho/static/css/main.073c9b0a.css.map",
-    "main.fa928d85.js.map": "/royaumeecho/static/js/main.fa928d85.js.map",
+    "main.9356331b.css.map": "/royaumeecho/static/css/main.9356331b.css.map",
+    "main.ac886103.js.map": "/royaumeecho/static/js/main.ac886103.js.map",
     "787.71e672d5.chunk.js.map": "/royaumeecho/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.fa928d85.js"
+    "static/css/main.9356331b.css",
+    "static/js/main.ac886103.js"
   ]
 }
