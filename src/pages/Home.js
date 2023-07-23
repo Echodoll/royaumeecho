@@ -32,7 +32,7 @@ function Home() {
                 </ul>}
             />
             <div>
-                <h1 className="title__chatons">Nos chaton, comment vivent-ils ? </h1>
+                <h1 className="title__chatons">Nos chatons, comment vivent-ils ? </h1>
                 <Chatons
                     picture={tao}
                     altPicture="Photos de Tao"
@@ -57,7 +57,7 @@ function Home() {
                     altPicture="Photos de Tao"
                     title="La sociabilisation : "
                     text="Dès leur plus jeune âge, nos loulous sont manipulés, accoutumés aux bruits quotidiens,
-                     au séance de jeu quotidiennes avec moi-même ou les enfants.
+                     aux séances de jeu avec moi-même ou les enfants.
                       Ils sont également habitués aux chiens. Et bien sûr,
                        ils sont souvent avec Nanny qui adore les embrasser."
                     className=""

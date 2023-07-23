@@ -19,10 +19,14 @@ body {
     background-color: #C6A3CC;
     text-shadow: 1px 3px 0 #969696, 9px 0px 8px #aba8a8, 2px 2px 2px rgba(161, 104, 171, 0.68);
     color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 
 &__title {
     font-family: $font-family-lugrasimo;
     padding: 20px;
+    font-size: 24px;
 } 
 &__route ul {
     display: flex;
@@ -31,6 +35,7 @@ body {
     list-style: none;
     font-weight: 500;
     cursor: pointer;
+    gap: 40px;
 }
 &__route li {
     padding: 30px 20px;
@@ -54,6 +59,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 60px 0px
 
 &--fond {
     width: 100%;
@@ -80,12 +86,13 @@ body {
 
 }
 &__text p, li {
-    font-size: 18px;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #8A5D92;
+    font-weight: 300;
 
 }
 }
 .news {
-    margin-top: 30px;
     display: flex;
     background: #C6A3CC;
 &__image {
@@ -117,7 +124,8 @@ body {
     }
     &__picture img {
         border-radius: 50%;
-        width: 65%;
+        width: 70%;
+        height: 100%;
         box-shadow: 5px 6px 4px 4px rgba(0,0,0,0.7);  
         object-fit: cover;
     }
@@ -191,6 +199,10 @@ body {
 
 &__route {
     width: 100%;
+    & li {
+        font-size:10px;
+
+    }
 }
 &__title {
     padding: 15px;
@@ -206,6 +218,7 @@ body {
     flex-direction: row;
     justify-content: space-between;  
      padding: 10px;
+     gap: 0px;
 
 }
 .presentation {
@@ -226,17 +239,21 @@ body {
         }
     }
     &__text {
-        margin: 70px;
-        width: 90%;
+        width: 80%;
         background-color:#C6A3CC; 
         color: white;
         padding: 30px;
+        margin: 70px 0px 0px 0px;
     }
     &__text p {
-        font-size:18px;
+        font-size:12px;
+        font-weight: 400;
+
     }
     &__text li {
-        font-size:18px;
+        font-size:12px;
+        font-weight: 400;
+
     }
 }
 .news {
@@ -281,12 +298,24 @@ body {
     padding-left: 0;
     & p{
         width: 100%;
+        font-size: 12px;
     }
 }
 &__picture {
     width: 70%;
     padding-top: 40px;
+    height: auto;
 }
+}
+.title__chatons, .news__text h1 {
+    font-size: 18px;
+}
+.news__text p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.logo img {
+    padding-top: 110px;
 }
 }
 
